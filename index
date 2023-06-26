@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <title>Fred the baker</title>
+</head>
+    <header id="header">
+        <h1 class="banner" >Fred the Baker</h1>
+        <nav>
+            <ul>
+                <li>About fred</li>
+                <li>Inspiration</li>
+                <li>Contact me
+                    <ul>
+                        <li><a  href="https://github.com/JoseCarmona113">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+    <main>
+        <section id="clicker">
+            <button onclick="add()" id="donutclicker" >Donuts</button>
+            <div id="display-donut-count" ></div>
+            <img id="donut" src="/donut.png" width="200px" >
+            <button id="buy-clicker" onclick="buyclicker()">Buy Auto Clicker</button>
+        <div id="display-auto-cost"></div>
+        <div id="display-auto-count" ></div>
+        </section>
+    </main>
+
+    <script src="app.js" ></script>
+</body>
+</html>
