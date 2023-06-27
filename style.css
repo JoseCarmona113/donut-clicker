@@ -59,7 +59,7 @@ nav ul li:hover ul{
 ul{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
     font-size: 23px;
     font-family: 'Concert One', cursive;
 }
@@ -111,6 +111,13 @@ main{
 
 #donutclicker:active{
     animation: clicker 1s infinite;
+}
+
+#buy-clicker{
+    background-color: #9c634f;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
 }
 
 img {
