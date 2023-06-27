@@ -103,6 +103,7 @@ main{
     border: solid;
     border-radius: 10%;
     background-color: #9c634f;
+    margin-bottom: 15px;
 }
 
 #donutclicker:hover{
